@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+
+.kotak{
+    width: 700px;
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+    border-radius: 40px;
+    position: center;
+    box-shadow: 5px 5px 40px black;
+}
+
+.kotak img{
+    width: 255px;
+    position: fixed;
+    right: 0;
+    padding-bottom: 7px;
+    padding-right: 350px;
+    filter: brightness(1) contrast(1.3) saturate(1.2);
+    
+    
+    
+
+}
+.kotak img:hover {
+    width: 256px;
+    position: fixed;
+    right: 0;
+    padding-bottom: 7px;
+    padding-right: 350px;
+    filter: grayscale(100%);
+}
+
+
+
+
+.kotak p{
+    font-family: Arial;
+    font-weight: bold;
+    margin: 1px;
+    padding-top: px;
+}   
+
+.kotak h1,h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px white;
+    margin: 1px;
+    font-weight: lighter;
+    
+
+}
+
+.kotak h2{
+    padding-bottom: 40px;
+}
