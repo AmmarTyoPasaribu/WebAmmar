@@ -23,11 +23,11 @@ body{
 }
 
 .kotak img{
-    width: 255px;
+    width: 225px;
     position: fixed;
     right: 0;
     padding-bottom: 7px;
-    padding-right: 350px;
+    padding-right: 300px;
     filter: brightness(1) contrast(1.3) saturate(1.2);
     
     
